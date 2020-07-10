@@ -91,8 +91,8 @@ function ScreenBasket(props) {
                 { price: priceId, quantity: 1 }
             ],
             mode: 'payment',
-            successUrl: `https://localhost:3001/validation-commande`,
-            cancelUrl: 'https://localhost:3001/panier',
+            successUrl: `http://localhost:3001/validation-commande`,
+            cancelUrl: 'http://localhost:3001/panier',
         })
             .then(async function (result) {
                 console.log(result.error.message)

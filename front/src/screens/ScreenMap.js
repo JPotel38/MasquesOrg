@@ -209,7 +209,7 @@ function ScreenMap(props) {
         <Row style={{width: '80%',height: '60vh', marginTop: 30}}>
     
             <GoogleMapReact
-              bootstrapURLKeys={{ key: 'AIzaSyA7dxkypDmi6PUAA5D5tCx0mQ_s_UiwimM' }}
+              bootstrapURLKeys={{ key: 'GOOGLE MAP API KEY HERE' }}
               defaultCenter={center}
               defaultZoom={zoom}
               center={myPos}
